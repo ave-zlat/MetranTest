@@ -1,6 +1,6 @@
 ﻿namespace testApp
 {
-    partial class Form1
+    partial class TestApp
     {
         /// <summary>
         /// Required designer variable.
@@ -99,7 +99,7 @@
             this.lblChooseTest.TabIndex = 6;
             this.lblChooseTest.Text = "Выберите тест";
             // 
-            // Form1
+            // TestApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -111,8 +111,8 @@
             this.Controls.Add(this.lblTxtIdentifier);
             this.Controls.Add(this.btnStopTest);
             this.Controls.Add(this.btnStartTest);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "TestApp";
+            this.Text = "Test App";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

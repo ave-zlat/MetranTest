@@ -12,11 +12,11 @@ using System.Windows.Forms;
 
 namespace testApp
 {
-    public partial class Form1 : Form
+    public partial class TestApp : Form
     {
         private CancellationTokenSource _cts;
 
-        public Form1()
+        public TestApp()
         {
             InitializeComponent();
         }
